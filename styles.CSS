@@ -1,0 +1,221 @@
+/*    Style for H1 and H2*/
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*    Style of header section*/
+
+.header1 {
+    text-transform: uppercase;
+    background-color: rgb(249, 252, 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 25px;
+    z-index: 100;
+    top: 0%;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.salale {
+    color: rgb(5, 109, 31);
+}
+
+.mattu {
+    color: rgb(248, 36, 124);
+}
+
+.header_height {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.active {
+    border-bottom: 3px solid red;
+}
+
+
+/*    style for body section*/
+
+.body1 {
+    background-color: rgb(140, 192, 238);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#section1 {
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+#section2 {
+    text-align: center;
+    background-color: rgb(5, 54, 54);
+}
+
+#section3 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.objective {
+    background-color: rgb(120, 126, 126);
+    padding-bottom: 5px;
+}
+
+
+/*    style of Nevigation*/
+
+.menu_list li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    height: 5px;
+    color: white;
+}
+
+.menu_list {
+    color: rgb(250, 240, 240);
+}
+
+
+/*     Body for oll nevigation*/
+
+.bodyabout {
+    background-color: rgb(192, 240, 224);
+}
+
+.about {
+    font-size: 23;
+    padding: 40;
+    margin: 15px;
+}
+
+.bodycontac {
+    background-color: rgb(245, 201, 146);
+}
+
+.contact {
+    border: 3px solid red;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+}
+
+.cont {
+    padding: 25px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(120, 108, 133);
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.bodydep {
+    background-color: rgb(151, 247, 247);
+}
+
+.bodyfile {}
+
+.bodyform {
+    background-color: rgb(62, 112, 112);
+}
+
+.bodyHome {
+    background-color: rgb(247, 221, 196);
+}
+
+.bodytalent {
+    background-color: rgb(132, 231, 132);
+}
+
+
+/*      This is Style of form section*/
+
+form {
+    background-color: rgb(164, 207, 163);
+    padding: 30px;
+    margin: 10px;
+    border: 3px solid rgb(216, 25, 25);
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: 25%;
+    height: 5px;
+    padding: 15px;
+    margin: 6px;
+    border: 2px solid rgba(143, 102, 102, 0.25);
+    border-radius: 10px;
+    display: block;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(10, 206, 10);
+    border: 2px solid rgb(7, 116, 7);
+    border-radius: 10px;
+    color: rgb(249, 251, 252);
+    cursor: pointer;
+    width: 5%;
+}
+
+
+/*     style of footer section*/
+
+.hard {
+    background-color: yellow;
+    width: 11%;
+    padding: 1.1px;
+    margin: 5px;
+    border: 3px solid green;
+    border-radius: 10px;
+    color: red;
+    position: fixed;
+    bottom: 5.5%;
+    left: 84.7%;
+}
+
+.footer {
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
+    background-color: blueviolet;
+    width: 97%;
+    border-radius: 50px;
+}
+
+
+/*    script section*/
+
+.password {
+    border: 2px solid green;
+    color: red;
+}
+
+
+/*    Style for upload file*/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15pxp;
+    width: 100%;
+    min-height: 100vh;
+    background: #5691d5;
+    background: linear-gradient(282deg, #009dff 0%, #54bdff);
+}
